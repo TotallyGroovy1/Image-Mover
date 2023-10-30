@@ -156,9 +156,10 @@ span {
 }
 .blah {
     margin: 3rem;
+    padding-bottom: 5%;
 }
 
-.blah h2, h3,    p{
+.blah h2, h3, p{
     margin-left: 0;
     margin-right: 0;
     text-align: left;
@@ -172,4 +173,45 @@ span {
     text-decoration: none;
     text-align: center;
     color: lightblue;
+}
+
+.center a {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50%;
+  }
+.block{
+    width: 100%;
+    display: inline-block;
+}
+
+.bottom-header {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0;
+    width: 100%;
+    height: 6%;
+    background-color: #7FFFD4;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-header h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1050;
+    font-size: 250%;
+    color: #24252a;
+    text-decoration: none;
+    text-align: center;
+    background-color: #7FFFD4;
 }
